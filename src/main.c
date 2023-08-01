@@ -74,6 +74,7 @@ int main(void)
     strcpy(buf,"hello world");
     printf("%s\n",buf);
 
+
     return 0;
 }
 
