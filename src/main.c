@@ -23,7 +23,7 @@ void add_data(int* data, const char* char_arr, int len)
         *data += char_arr[i];
 }
 
-int main(void)
+int main(int argc, char** argv)
 {
     FILE *in, *out;
     char* in_file_name = "input.txt";
@@ -74,6 +74,17 @@ int main(void)
     strcpy(buf,"hello world");
     printf("%s\n",buf);
 
+    char buff[100];
+
+    /*if no argument…*/
+
+    if(argc <2)
+    {
+        printf("Syntax: %s <input string>\n", argv[0]);
+        exit (0);
+    }
+
+    strcpy(buff, argv[1]);
 
     return 0;
 }
