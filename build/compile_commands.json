@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/Users/kimkyeongjoon/Documents/temp/vuln_test/build/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/kimkyeongjoon/Documents/temp/vuln_test/include  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o CMakeFiles/interview_main.dir/main.c.o -c /Users/kimkyeongjoon/Documents/temp/vuln_test/src/main.c",
+  "file": "/Users/kimkyeongjoon/Documents/temp/vuln_test/src/main.c"
+},
+{
+  "directory": "/Users/kimkyeongjoon/Documents/temp/vuln_test/build/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/kimkyeongjoon/Documents/temp/vuln_test/include  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -o CMakeFiles/interview_main.dir/utils.c.o -c /Users/kimkyeongjoon/Documents/temp/vuln_test/src/utils.c",
+  "file": "/Users/kimkyeongjoon/Documents/temp/vuln_test/src/utils.c"
+}
+]

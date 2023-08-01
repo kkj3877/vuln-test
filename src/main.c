@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
+#include <string.h>
 
 #include "utils.h"
 
@@ -14,6 +15,13 @@ const int A[6][3] = {
 };
 
 const int s[3] = { 13, 9, 11 };
+
+void add_data(int* data, const char* char_arr, int len)
+{
+    int i;
+    for (i = 0; i < len; ++i)
+        *data += char_arr[i];
+}
 
 int main(void)
 {
@@ -55,6 +63,16 @@ int main(void)
 
     // Close the file
     fclose(in);
+
+    int len;
+
+    char* buf;
+
+    scanf("%d", &len);
+    buf = (char*)malloc(sizeof(char) * len);
+
+    strcpy(buf,"hello world");
+    printf("%s\n",buf);
 
     return 0;
 }
